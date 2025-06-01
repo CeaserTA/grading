@@ -13,8 +13,10 @@ fun main(){
             println("Grade is: B")
         }else if(marks in 60..69){
             println("Grade is: C")
-        }else if(marks in 0..49){
-            println("Grade is: F")
+        }else if(marks in 50..59){
+            println("Grade is: D")
+        }else if (marks in 0..49){
+            println("Grade : "F")
         }
     }else{
         println("Enter valid Marks")
